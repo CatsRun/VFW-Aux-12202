@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VFW Aux 12202 | Contact Us</title>
+</head>
+
+<body>
+    <header id="main-header"></header>
+    <main>
+        <!-- link to contact form -->
+        <form action="success.html" method="post">Contact Us</form>
+        <fieldset>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required><br><br>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <p>Are you a member?</p>
+            <input type="radio" id="memberStatus1" name="memberStatus1" value="prospectiveMember" required>
+            <label for="memberStatus1">Prospective member</label><br>
+            <input type="radio" id="memberStatus2" name="memberStatus2" value="formerMember" required>
+            <label for="memberStatus2">Former member</label><br>
+            <input type="radio" id="memberStatus3" name="memberStatus3" value="member" required>
+            <label for="memberStatus3">Current member</label><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+        </form>
+    </main>
+    <footer id="main-footer"></footer>
+</body>
+
+</html>
